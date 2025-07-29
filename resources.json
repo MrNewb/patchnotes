@@ -1,0 +1,16 @@
+{
+  "MrNewbVehicleKeys": {
+    "version": "1.2.3",
+    "patchnotes": [
+      "Fixed bug with resource loading",
+      "Added new banking module",
+      "Improved performance"
+    ]
+  },
+  "other_resource": {
+    "version": "2.0.0",
+    "patchnotes": [
+      "Initial release"
+    ]
+  }
+}
