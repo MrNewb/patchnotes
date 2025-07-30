@@ -1,10 +1,9 @@
 {
   "MrNewbVehicleKeys": {
-    "1.2.3": [
-      "Fixed bug with resource loading",
-      "Added new banking module"
+    "2.5.0": [
+      "Test Version"
     ],
-    "1.3.0": [
+    "2.5.1": [
       "Improved performance",
       "Optimized security checks"
     ]
