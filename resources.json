@@ -9,24 +9,4 @@
       "Optimized security checks"
     ]
   },
-  "community_bridge": {
-    "0.11.1": [
-      "This is a patch notes test, this is latest",
-      "Additional lines is an option as well",
-      "See 1",
-      "2",
-      "3"
-    ],
-    "0.11.0": [
-      "Heres an old version the manifest predates so this will work also",
-      "This is hardcoded to need a repo named patchnotes if using this method though"
-    ],
-    "1.0.1": [
-      "Old users go update",
-      "Additional lines is an option as well",
-      "See 1",
-      "2",
-      "3"
-    ]
-  },
 }
