@@ -11,12 +11,15 @@
   },
   "community_bridge": {
     "0.11.1": [
-      "latest test",
-      "Afarts"
+      "This is a patch notes test, this is latest",
+      "Additional lines is an option as well",
+      "See 1",
+      "2",
+      "3"
     ],
     "0.11.0": [
-      "random stuff",
-      "ghfgfdsghfdhgfh"
+      "Heres an old version the manifest predates so this will work also",
+      "This is hardcoded to need a repo named patchnotes if using this method though"
     ]
   },
 }
