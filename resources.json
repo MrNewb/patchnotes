@@ -1,51 +1,73 @@
 {
   "MrNewbVehicleKeys": {
-    "2.5.0": [
-      "Updated to new version checks."
-    ],
-    "2.5.1": [
-      "Improved performance",
-      "Optimized security checks"
-    ]
+    "versions": {
+      "2.5.0": ["Updated to new version checks."],
+      "2.5.1": [
+        "Improved performance",
+        "Optimized security checks"
+      ]
+    }
   },
   "MrNewbWeaponTints": {
+    "repo": "MrNewb/MrNewbWeaponTints",
+    "versions": {
     "0.1.2": [
       "Updated to new version checks."
-    ]
+      ]
+    }
   },
   "MrNewbPrescriptions": {
-    "2.0.1": [
-      "Updated to new version checks."
-    ]
+    "versions": {
+      "2.0.1": [
+        "Updated to new version checks."
+      ]
+    }
   },
   "MrNewbPhoneTracker": {
-    "2.0.4": [
-      "Updated to new version checks."
-    ]
+    "repo": "MrNewb/MrNewbPhoneTracker",
+    "versions": {
+      "2.0.4": [
+        "Updated to new version checks."
+      ]
+    }
   },
   "MrNewbPawn": {
-    "1.2.1": [
-      "Updated to new version checks."
-    ]
+    "repo": "MrNewb/MrNewbPawn",
+    "versions": {
+      "1.2.1": [
+        "Updated to new version checks."
+      ]
+    }
   },
   "MrNewbNameChanger": {
-    "2.1.3": [
-      "Updated to new version checks."
-    ]
+    "repo": "MrNewb/MrNewbNameChanger",
+    "versions": {
+      "2.1.3": [
+        "Updated to new version checks."
+      ]
+    }
   },
   "MrNewbGiftBox": {
-    "0.1.5": [
-      "Updated to new version checks."
-    ]
+    "repo": "MrNewb/MrNewbGiftBox",
+    "versions": {
+      "0.1.5": [
+        "Updated to new version checks."
+      ]
+    }
   },
   "MrNewbCustomPlates": {
-    "2.1.1": [
-      "Updated to new version checks."
-    ]
+    "repo": "MrNewb/MrNewbCustomPlates",
+    "versions": {
+      "2.1.1": [
+        "Updated to new version checks."
+      ]
+    }
   },
   "MrNewbBeeKeeping": {
-    "1.4.6": [
-      "Updated to new version checks."
-    ]
-  },
+    "versions": {
+      "1.4.6": [
+        "Updated to new version checks."
+      ]
+    }
+  }
 }
