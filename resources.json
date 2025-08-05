@@ -71,5 +71,12 @@
                 "Updated to new version checks."
             ]
         }
+    },
+    "community_bridge": {
+        "versions": {
+            "0.11.1": [
+                "Updated to new version checks."
+            ]
+        }
     }
 }
