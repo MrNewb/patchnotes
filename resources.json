@@ -68,7 +68,21 @@
     "MrNewbBeeKeeping": {
         "versions": {
             "1.4.6": [
-                "Updated to new version checks."
+                "Updated to new version checks.",
+                "Adjusted locale settings for improved localization support.",
+                "Updated hive management logic; owner-only mode now enforced with guard checks.",
+                "Removed deprecated and unused event hooks.",
+                "Restructured configuration with nested options for better organization.",
+                "Fixed missing lastAccessed data entries for hives.",
+                "All beekeeping commands are now prefixed with hive for consistency.",
+                "Added new commands: hiveRemoveByID, hiveRemoveByOwner, hiveShowAll, hiveHideAll, and hiveOpenAdmin.",
+                "hiveOpenAdmin now features an enhanced admin UI with clipboard copy, teleport, map markers, and access info.",
+                "Admins can now delete hives directly from the new interface.",
+                "Introduced /openAdminHives for quick access to the hive admin debugger.",
+                "Beekeeping system now uses a new SQL schema as part of ongoing restructure.",
+                "Migration to the new point-based system is now complete.",
+                "Dynamic shop pricing added, configurable via settings.",
+                "Old Beekeeping v1 data can now be migrated using migrate_beekeeping via txAdmin."
             ]
         }
     },
