@@ -1,26 +1,8 @@
 {
-    "MrNewbVehicleKeys": {
-        "versions": {
-            "2.5.0": [
-                "Updated to new version checks."
-            ],
-            "2.5.1": [
-                "Improved performance",
-                "Optimized security checks"
-            ]
-        }
-    },
     "MrNewbWeaponTints": {
         "repo": "MrNewb/MrNewbWeaponTints",
         "versions": {
             "0.1.2": [
-                "Updated to new version checks."
-            ]
-        }
-    },
-    "MrNewbPrescriptions": {
-        "versions": {
-            "2.0.1": [
                 "Updated to new version checks."
             ]
         }
@@ -65,6 +47,43 @@
             ]
         }
     },
+    "MrNewbFishing": {
+        "versions": {
+            "0.0.2": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbVehicleKeys": {
+        "versions": {
+            "2.5.0": [
+                "Updated to new version checks."
+            ],
+            "2.5.1": [
+                "Improved performance",
+                "Optimized security checks"
+            ]
+        }
+    },
+    "MrNewbPrescriptions": {
+        "versions": {
+            "2.0.1": [
+                "Switched to a new version checker with integrated patch notes display.",
+                "Updated prescriptions config placeholders with clearer examples.",
+                "Added an extra pickup location in the pickups config.",
+                "Moved additional utility functions into the init phase for better accessibility.",
+                "Rebuilt config for expandability; now supports entityTypes, box, object, and peds.",
+                "Added shared item checker to prevent duplicate logic.",
+                "Expanded support for multiple insurance types.",
+                "Tweaked effects files for better in-game integration.",
+                "Points system fully migrated to new structure.",
+                "Added pharmacy delivery order submenus for streamlined interaction.",
+                "Introduced easier pickup mechanics for improved user experience.",
+                "Added more locale keys (note: these still require heavy cleanup).",
+                "Adjusted file load order for improved stability and consistency."
+            ]
+        }
+    },
     "MrNewbBeeKeeping": {
         "versions": {
             "1.4.6": [
@@ -83,13 +102,6 @@
                 "Migration to the new point-based system is now complete.",
                 "Dynamic shop pricing added, configurable via settings.",
                 "Old Beekeeping v1 data can now be migrated using migrate_beekeeping via txAdmin."
-            ]
-        }
-    },
-    "community_bridge": {
-        "versions": {
-            "0.11.1": [
-                "Updated to new version checks."
             ]
         }
     }
