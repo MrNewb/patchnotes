@@ -2,7 +2,7 @@
     "MrNewbWeaponTints": {
         "repo": "MrNewb/MrNewbWeaponTints",
         "versions": {
-            "0.1.2": [
+            "0.1.1": [
                 "Updated to new version checks."
             ]
         }
@@ -19,14 +19,15 @@
         "repo": "MrNewb/MrNewbPawn",
         "versions": {
             "1.2.1": [
-                "Updated to new version checks."
+                "Patched progressbars.",
+                "Patched points."
             ]
         }
     },
     "MrNewbNameChanger": {
         "repo": "MrNewb/MrNewbNameChanger",
         "versions": {
-            "2.1.3": [
+            "2.1.2": [
                 "Updated to new version checks."
             ]
         }
@@ -34,7 +35,7 @@
     "MrNewbGiftBox": {
         "repo": "MrNewb/MrNewbGiftBox",
         "versions": {
-            "0.1.5": [
+            "0.1.4": [
                 "Updated to new version checks."
             ]
         }
@@ -49,59 +50,35 @@
     },
     "MrNewbFishing": {
         "versions": {
-            "0.0.2": [
+            "0.0.1": [
                 "Updated to new version checks."
             ]
         }
     },
     "MrNewbVehicleKeys": {
         "versions": {
-            "2.5.0": [
-                "Updated to new version checks."
-            ],
-            "2.5.1": [
-                "Improved performance",
-                "Optimized security checks"
+            "2.2.1": [
+                "Updated to new version checks.",
+                "Patched progressbars.",
+                "Patched points."
             ]
         }
     },
     "MrNewbPrescriptions": {
         "versions": {
-            "2.0.1": [
-                "Switched to a new version checker with integrated patch notes display.",
-                "Updated prescriptions config placeholders with clearer examples.",
-                "Added an extra pickup location in the pickups config.",
-                "Moved additional utility functions into the init phase for better accessibility.",
-                "Rebuilt config for expandability; now supports entityTypes, box, object, and peds.",
-                "Added shared item checker to prevent duplicate logic.",
-                "Expanded support for multiple insurance types.",
-                "Tweaked effects files for better in-game integration.",
-                "Points system fully migrated to new structure.",
-                "Added pharmacy delivery order submenus for streamlined interaction.",
-                "Introduced easier pickup mechanics for improved user experience.",
-                "Added more locale keys (note: these still require heavy cleanup).",
-                "Adjusted file load order for improved stability and consistency."
+            "2.0.2": [
+                "Updated to new version checks.",
+                "Patched progressbars.",
+                "Patched points."
             ]
         }
     },
     "MrNewbBeeKeeping": {
         "versions": {
-            "1.4.6": [
+            "1.4.7": [
                 "Updated to new version checks.",
-                "Adjusted locale settings for improved localization support.",
-                "Updated hive management logic; owner-only mode now enforced with guard checks.",
-                "Removed deprecated and unused event hooks.",
-                "Restructured configuration with nested options for better organization.",
-                "Fixed missing lastAccessed data entries for hives.",
-                "All beekeeping commands are now prefixed with hive for consistency.",
-                "Added new commands: hiveRemoveByID, hiveRemoveByOwner, hiveShowAll, hiveHideAll, and hiveOpenAdmin.",
-                "hiveOpenAdmin now features an enhanced admin UI with clipboard copy, teleport, map markers, and access info.",
-                "Admins can now delete hives directly from the new interface.",
-                "Introduced /openAdminHives for quick access to the hive admin debugger.",
-                "Beekeeping system now uses a new SQL schema as part of ongoing restructure.",
-                "Migration to the new point-based system is now complete.",
-                "Dynamic shop pricing added, configurable via settings.",
-                "Old Beekeeping v1 data can now be migrated using migrate_beekeeping via txAdmin."
+                "Patched progressbars.",
+                "Patched points."
             ]
         }
     }
