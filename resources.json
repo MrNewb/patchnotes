@@ -75,10 +75,10 @@
     },
     "MrNewbBeeKeeping": {
         "versions": {
-            "1.4.7": [
-                "Updated to new version checks.",
-                "Patched progressbars.",
-                "Patched points."
+            "1.5.0": [
+                "New sql structure",
+                "class based hives management.",
+                "performance improvements."
             ]
         }
     }
