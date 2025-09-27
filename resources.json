@@ -79,7 +79,11 @@
                 "New sql structure",
                 "class based hives management.",
                 "performance improvements."
-            ]
+            ],
+            "1.5.1": [
+                "Added checks to DynamicDemandPrices to ensure valid input before shuffling and corrected the shuffle logic.",
+                "Minor formatting improvements in shared client initialization."
+            ],
         }
     }
 }
