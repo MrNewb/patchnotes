@@ -48,14 +48,16 @@
             ]
         }
     },
-    "MrNewbFishing": {
+    "MrNewbsSpookySeason": {
+        "repo": "MrNewb/MrNewbsSpookySeason",
         "versions": {
-            "0.0.1": [
+            "0.0.2": [
                 "Updated to new version checks."
             ]
         }
     },
     "MrNewbVehicleKeys": {
+        "repo": "MrNewb/MrNewbVehicleKeys",
         "versions": {
             "2.2.1": [
                 "Updated to new version checks.",
@@ -65,6 +67,7 @@
         }
     },
     "MrNewbPrescriptions": {
+        "repo": "MrNewb/MrNewbPrescriptions",
         "versions": {
             "2.0.2": [
                 "Updated to new version checks.",
@@ -74,6 +77,7 @@
         }
     },
     "MrNewbBeeKeeping": {
+        "repo": "MrNewb/MrNewbBeeKeeping",
         "versions": {
             "1.5.0": [
                 "New sql structure",
@@ -83,7 +87,7 @@
             "1.5.1": [
                 "Added checks to DynamicDemandPrices to ensure valid input before shuffling and corrected the shuffle logic.",
                 "Minor formatting improvements in shared client initialization."
-            ],
+            ]
         }
     }
 }
