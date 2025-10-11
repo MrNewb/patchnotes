@@ -57,7 +57,6 @@
         }
     },
     "MrNewbVehicleKeys": {
-        "repo": "MrNewb/MrNewbVehicleKeys",
         "versions": {
             "2.2.1": [
                 "Updated to new version checks.",
@@ -67,7 +66,6 @@
         }
     },
     "MrNewbPrescriptions": {
-        "repo": "MrNewb/MrNewbPrescriptions",
         "versions": {
             "2.0.2": [
                 "Updated to new version checks.",
@@ -77,7 +75,6 @@
         }
     },
     "MrNewbBeeKeeping": {
-        "repo": "MrNewb/MrNewbBeeKeeping",
         "versions": {
             "1.5.0": [
                 "New sql structure",
