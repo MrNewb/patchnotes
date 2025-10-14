@@ -1,101 +1,104 @@
 {
-  "MrNewbWeaponTints": {
-    "repo": "MrNewb/MrNewbWeaponTints",
-    "versions": {
-      "0.1.1": [
-        "Updated to new version checks."
-      ]
+    "MrNewbWeaponTints": {
+        "repo": "MrNewb/MrNewbWeaponTints",
+        "versions": {
+            "0.1.1": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbPhoneTracker": {
+        "repo": "MrNewb/MrNewbPhoneTracker",
+        "versions": {
+            "2.0.4": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbPawn": {
+        "repo": "MrNewb/MrNewbPawn",
+        "versions": {
+            "1.3.0": [
+                "Patched progressbars.",
+                "Patched points."
+            ]
+        }
+    },
+    "MrNewbNameChanger": {
+        "repo": "MrNewb/MrNewbNameChanger",
+        "versions": {
+            "2.1.2": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbGiftBox": {
+        "repo": "MrNewb/MrNewbGiftBox",
+        "versions": {
+            "0.1.4": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbCustomPlates": {
+        "repo": "MrNewb/MrNewbCustomPlates",
+        "versions": {
+            "2.1.1": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbsSpookySeason": {
+        "repo": "MrNewb/MrNewbsSpookySeason",
+        "versions": {
+            "0.0.2": [
+                "Updated to new version checks."
+            ],
+            "0.0.3": [
+                "additional locale support, minor config tweaks"
+            ],
+            "0.0.4": [
+                "small patch to prevent duplicate trick or treats"
+            ]
+        }
+    },
+    "MrNewbOrganics": {
+        "repo": "MrNewb/MrNewbOrganics",
+        "versions": {
+            "0.0.1": [
+                "Updated to new version checks."
+            ]
+        }
+    },
+    "MrNewbVehicleKeys": {
+        "versions": {
+            "2.2.1": [
+                "Updated to new version checks.",
+                "Patched progressbars.",
+                "Patched points."
+            ]
+        }
+    },
+    "MrNewbPrescriptions": {
+        "versions": {
+            "2.0.2": [
+                "Updated to new version checks.",
+                "Patched progressbars.",
+                "Patched points."
+            ]
+        }
+    },
+    "MrNewbBeeKeeping": {
+        "versions": {
+            "1.5.0": [
+                "New sql structure",
+                "class based hives management.",
+                "performance improvements."
+            ],
+            "1.5.1": [
+                "Added checks to DynamicDemandPrices to ensure valid input before shuffling and corrected the shuffle logic.",
+                "Minor formatting improvements in shared client initialization."
+            ]
+        }
     }
-  },
-  "MrNewbPhoneTracker": {
-    "repo": "MrNewb/MrNewbPhoneTracker",
-    "versions": {
-      "2.0.4": [
-        "Updated to new version checks."
-      ]
-    }
-  },
-  "MrNewbPawn": {
-    "repo": "MrNewb/MrNewbPawn",
-    "versions": {
-      "1.3.0": [
-        "Patched progressbars.",
-        "Patched points."
-      ]
-    }
-  },
-  "MrNewbNameChanger": {
-    "repo": "MrNewb/MrNewbNameChanger",
-    "versions": {
-      "2.1.2": [
-        "Updated to new version checks."
-      ]
-    }
-  },
-  "MrNewbGiftBox": {
-    "repo": "MrNewb/MrNewbGiftBox",
-    "versions": {
-      "0.1.4": [
-        "Updated to new version checks."
-      ]
-    }
-  },
-  "MrNewbCustomPlates": {
-    "repo": "MrNewb/MrNewbCustomPlates",
-    "versions": {
-      "2.1.1": [
-        "Updated to new version checks."
-      ]
-    }
-  },
-  "MrNewbsSpookySeason": {
-    "repo": "MrNewb/MrNewbsSpookySeason",
-    "versions": {
-      "0.0.2": [
-        "Updated to new version checks."
-      ],
-      "0.0.3": [
-        "additional locale support, minor config tweaks"
-      ]
-    }
-  },
-  "MrNewbOrganics": {
-    "repo": "MrNewb/MrNewbOrganics",
-    "versions": {
-      "0.0.1": [
-        "Updated to new version checks."
-      ]
-    }
-  },
-  "MrNewbVehicleKeys": {
-    "versions": {
-      "2.2.1": [
-        "Updated to new version checks.",
-        "Patched progressbars.",
-        "Patched points."
-      ]
-    }
-  },
-  "MrNewbPrescriptions": {
-    "versions": {
-      "2.0.2": [
-        "Updated to new version checks.",
-        "Patched progressbars.",
-        "Patched points."
-      ]
-    }
-  },
-  "MrNewbBeeKeeping": {
-    "versions": {
-      "1.5.0": [
-        "New sql structure",
-        "class based hives management.",
-        "performance improvements."
-      ],
-      "1.5.1": [
-        "Added checks to DynamicDemandPrices to ensure valid input before shuffling and corrected the shuffle logic.",
-        "Minor formatting improvements in shared client initialization."
-      ]
-    }
-  }
 }
