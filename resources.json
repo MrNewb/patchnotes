@@ -51,8 +51,8 @@
     "MrNewbsSpookySeason": {
         "repo": "MrNewb/MrNewbsSpookySeason",
         "versions": {
-            "0.1.0": [
-                "patch to prevent duplicate trick or treats"
+            "0.1.1": [
+                "Fixes a target issue for trick or treating"
             ]
         }
     },
