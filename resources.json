@@ -84,14 +84,8 @@
     },
     "MrNewbBeeKeeping": {
         "versions": {
-            "1.5.0": [
-                "New sql structure",
-                "class based hives management.",
-                "performance improvements."
-            ],
-            "1.5.1": [
-                "Added checks to DynamicDemandPrices to ensure valid input before shuffling and corrected the shuffle logic.",
-                "Minor formatting improvements in shared client initialization."
+            "1.5.3": [
+                "Small fix for item removal."
             ]
         }
     }
