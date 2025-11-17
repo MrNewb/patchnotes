@@ -48,6 +48,14 @@
             ]
         }
     },
+    "community_bridge": {
+        "repo": "MrNewb/community_bridge",
+        "versions": {
+            "0.13.0": [
+                "Migrate fork for resource hotfixes."
+            ]
+        }
+    },
     "MrNewbsSpookySeason": {
         "repo": "MrNewb/MrNewbsSpookySeason",
         "versions": {
