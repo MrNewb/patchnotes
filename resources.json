@@ -48,6 +48,14 @@
             ]
         }
     },
+    "MrNewbLootTables": {
+        "repo": "MrNewb/MrNewbLootTables",
+        "versions": {
+            "0.1.0": [
+                "Initial release."
+            ]
+        }
+    },
     "community_bridge": {
         "repo": "MrNewb/community_bridge",
         "versions": {
