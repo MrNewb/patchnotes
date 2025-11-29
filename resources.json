@@ -51,7 +51,7 @@
     "MrNewbLootTables": {
         "repo": "MrNewb/MrNewbLootTables",
         "versions": {
-            "0.2.0": [
+            "0.2.1": [
                 "Job payouts now dynamic."
             ]
         }
