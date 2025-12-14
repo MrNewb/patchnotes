@@ -65,12 +65,15 @@
             "0.13.1": [
                 "Revert changes to require ox_lib in.",
                 "Fixes to locales",
+                "Significant improvments to inventory bridging functions, swapping to missing checks and function notations.",
                 "Add qb-phone compatability",
                 "Add Wasabi-ui kit compatability",
                 "Add keep progressbar compatability",
                 "Added Utility.RemoveProp",
+                "Depricated old notify functions, now offers Notify.SendNotification with optional props param and a title param.",
                 "Bug fixes for possible negative value numbers being passed in shop module for esx users",
-                "Misc refactors"
+                "Misc refactors",
+                "PLEASE do a fresh install of community_bridge, as some old files have been removed and config options have changed."
             ]
         }
     },
