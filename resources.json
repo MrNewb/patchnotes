@@ -61,6 +61,16 @@
         "versions": {
             "0.13.0": [
                 "Migrate fork for resource hotfixes."
+            ],
+            "0.13.1": [
+                "Revert changes to require ox_lib in.",
+                "Fixes to locales",
+                "Add qb-phone compatability",
+                "Add Wasabi-ui kit compatability",
+                "Add keep progressbar compatability",
+                "Added Utility.RemoveProp",
+                "Bug fixes for possible negative value numbers being passed in shop module for esx users",
+                "Misc refactors"
             ]
         }
     },
