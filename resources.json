@@ -74,6 +74,10 @@
                 "Bug fixes for possible negative value numbers being passed in shop module for esx users",
                 "Misc refactors",
                 "PLEASE do a fresh install of community_bridge, as some old files have been removed and config options have changed."
+            ],
+            "0.13.2": [
+                "Commented out print statements that warned about deprecated functions in es_extended, qb-core, and qbx_core client and server modules.",
+                "This prevents tickets about deprication prints."
             ]
         }
     },
