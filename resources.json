@@ -78,6 +78,9 @@
             "0.13.2": [
                 "Commented out print statements that warned about deprecated functions in es_extended, qb-core, and qbx_core client and server modules.",
                 "This prevents tickets about deprication prints."
+            ],
+            "0.13.3": [
+                "Notification fixes for when calling exports for the fallback system to search the wrong resource folder"
             ]
         }
     },
