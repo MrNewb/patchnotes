@@ -106,6 +106,9 @@
                 "Updated to new version checks.",
                 "Patched progressbars.",
                 "Patched points."
+            ],
+            "2.2.3": [
+                "Patched some locales, shipping the extra locales missed last time."
             ]
         }
     },
