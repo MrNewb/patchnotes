@@ -1,4 +1,13 @@
 {
+    "MrNewbPawn": {
+        "repo": "MrNewb/MrNewbPawn",
+        "versions": {
+            "1.4.0": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
     "MrNewbCustomPlates": {
         "repo": "MrNewb/MrNewbCustomPlates",
         "versions": {
@@ -21,7 +30,7 @@
         "repo": "MrNewb/MrNewbLootTables",
         "versions": {
             "0.2.2": [
-                "Manifest changes, config tweaks.",
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
                 "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
             ]
         }
@@ -39,15 +48,6 @@
         "versions": {
             "2.0.4": [
                 "Updated to new version checks."
-            ]
-        }
-    },
-    "MrNewbPawn": {
-        "repo": "MrNewb/MrNewbPawn",
-        "versions": {
-            "1.3.0": [
-                "Patched progressbars.",
-                "Patched points."
             ]
         }
     },
