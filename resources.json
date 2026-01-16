@@ -81,6 +81,9 @@
             ],
             "0.13.3": [
                 "Notification fixes for when calling exports for the fallback system to search the wrong resource folder"
+            ],
+            "0.13.4": [
+                "As requested added compatability for ZSX_UIV2, its a cool resource and can be found here https://store.zeusx.dev/package/6586198 "
             ]
         }
     },
