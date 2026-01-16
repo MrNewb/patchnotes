@@ -1,4 +1,13 @@
 {
+    "MrNewbOrganics": {
+        "repo": "MrNewb/MrNewbOrganics",
+        "versions": {
+            "0.0.2": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
     "MrNewbPhoneTracker": {
         "repo": "MrNewb/MrNewbPhoneTracker",
         "versions": {
@@ -97,14 +106,6 @@
             ],
             "0.13.4": [
                 "As requested added compatability for ZSX_UIV2, its a cool resource and can be found here https://store.zeusx.dev/package/6586198 "
-            ]
-        }
-    },
-    "MrNewbOrganics": {
-        "repo": "MrNewb/MrNewbOrganics",
-        "versions": {
-            "0.0.1": [
-                "Updated to new version checks."
             ]
         }
     },
