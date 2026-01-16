@@ -1,4 +1,31 @@
 {
+    "MrNewbCustomPlates": {
+        "repo": "MrNewb/MrNewbCustomPlates",
+        "versions": {
+            "2.2.0": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
+    "MrNewbNameChanger": {
+        "repo": "MrNewb/MrNewbNameChanger",
+        "versions": {
+            "2.3.1": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
+    "MrNewbLootTables": {
+        "repo": "MrNewb/MrNewbLootTables",
+        "versions": {
+            "0.2.2": [
+                "Manifest changes, config tweaks.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
     "MrNewbWeaponTints": {
         "repo": "MrNewb/MrNewbWeaponTints",
         "versions": {
@@ -24,36 +51,11 @@
             ]
         }
     },
-    "MrNewbNameChanger": {
-        "repo": "MrNewb/MrNewbNameChanger",
-        "versions": {
-            "2.3.0": [
-                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
-                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
-            ]
-        }
-    },
     "MrNewbGiftBox": {
         "repo": "MrNewb/MrNewbGiftBox",
         "versions": {
             "0.1.4": [
                 "Updated to new version checks."
-            ]
-        }
-    },
-    "MrNewbCustomPlates": {
-        "repo": "MrNewb/MrNewbCustomPlates",
-        "versions": {
-            "2.1.1": [
-                "Updated to new version checks."
-            ]
-        }
-    },
-    "MrNewbLootTables": {
-        "repo": "MrNewb/MrNewbLootTables",
-        "versions": {
-            "0.2.1": [
-                "Job payouts now dynamic."
             ]
         }
     },
