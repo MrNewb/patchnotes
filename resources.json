@@ -1,4 +1,12 @@
 {
+    "MrNewbsSpookySeason": {
+        "repo": "MrNewb/MrNewbsSpookySeason",
+        "versions": {
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
     "MrNewbPawn": {
         "repo": "MrNewb/MrNewbPawn",
         "versions": {
@@ -87,14 +95,6 @@
             ],
             "0.13.4": [
                 "As requested added compatability for ZSX_UIV2, its a cool resource and can be found here https://store.zeusx.dev/package/6586198 "
-            ]
-        }
-    },
-    "MrNewbsSpookySeason": {
-        "repo": "MrNewb/MrNewbsSpookySeason",
-        "versions": {
-            "0.1.2": [
-                "Removes a debug print"
             ]
         }
     },
