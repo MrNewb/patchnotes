@@ -1,4 +1,13 @@
 {
+    "MrNewbPhoneTracker": {
+        "repo": "MrNewb/MrNewbPhoneTracker",
+        "versions": {
+            "2.1.0": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
     "MrNewbsSpookySeason": {
         "repo": "MrNewb/MrNewbsSpookySeason",
         "versions": {
@@ -48,14 +57,6 @@
         "repo": "MrNewb/MrNewbWeaponTints",
         "versions": {
             "0.1.1": [
-                "Updated to new version checks."
-            ]
-        }
-    },
-    "MrNewbPhoneTracker": {
-        "repo": "MrNewb/MrNewbPhoneTracker",
-        "versions": {
-            "2.0.4": [
                 "Updated to new version checks."
             ]
         }
