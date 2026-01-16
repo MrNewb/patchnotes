@@ -27,8 +27,9 @@
     "MrNewbNameChanger": {
         "repo": "MrNewb/MrNewbNameChanger",
         "versions": {
-            "2.1.2": [
-                "Updated to new version checks."
+            "2.3.0": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
             ]
         }
     },
