@@ -1,4 +1,13 @@
 {
+    "MrNewbPlateCarriers": {
+        "versions": {
+            "1.5.0": [
+                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
+                "Opened up some code for all of you :) ",
+                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ]
+        }
+    },
     "MrNewbOrganics": {
         "repo": "MrNewb/MrNewbOrganics",
         "versions": {
