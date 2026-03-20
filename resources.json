@@ -94,28 +94,9 @@
             "0.13.0": [
                 "Migrate fork for resource hotfixes."
             ],
-            "0.13.1": [
-                "Revert changes to require ox_lib in.",
-                "Fixes to locales",
-                "Significant improvments to inventory bridging functions, swapping to missing checks and function notations.",
-                "Add qb-phone compatability",
-                "Add Wasabi-ui kit compatability",
-                "Add keep progressbar compatability",
-                "Added Utility.RemoveProp",
-                "Depricated old notify functions, now offers Notify.SendNotification with optional props param and a title param.",
-                "Bug fixes for possible negative value numbers being passed in shop module for esx users",
-                "Misc refactors",
-                "PLEASE do a fresh install of community_bridge, as some old files have been removed and config options have changed."
-            ],
-            "0.13.2": [
-                "Commented out print statements that warned about deprecated functions in es_extended, qb-core, and qbx_core client and server modules.",
-                "This prevents tickets about deprication prints."
-            ],
-            "0.13.3": [
-                "Notification fixes for when calling exports for the fallback system to search the wrong resource folder"
-            ],
-            "0.13.4": [
-                "As requested added compatability for ZSX_UIV2, its a cool resource and can be found here https://store.zeusx.dev/package/6586198 "
+            "0.13.6": [
+                "Branch was out of sync — a minor patch from 0.13.5 was missing from the previous release. This update restores that patch.",
+                "This issue impacted qb-inventory users only and when an error caused fallback to pre-QB 2.0 compatibility. If you dont use qb-inventory, there is no need to update."
             ]
         }
     },
