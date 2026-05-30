@@ -91,12 +91,13 @@
     "community_bridge": {
         "repo": "MrNewb/community_bridge",
         "versions": {
-            "0.13.0": [
-                "Migrate fork for resource hotfixes."
-            ],
             "0.13.6": [
                 "Branch was out of sync — a minor patch from 0.13.5 was missing from the previous release. This update restores that patch.",
                 "This issue impacted qb-inventory users only and when an error caused fallback to pre-QB 2.0 compatibility. If you dont use qb-inventory, there is no need to update."
+            ],
+            "0.13.7": [
+                "Rebase on the latest updates ive pushed to the org repo, added support for one_inventory",
+                "Misc other fixes."
             ]
         }
     },
