@@ -103,6 +103,13 @@
             ]
         }
     },
+    "TacoLink": {
+        "versions": {
+            "0.0.2": [
+                "Prep for release."
+            ]
+        }
+    },
     "MrNewbVehicleKeys": {
         "versions": {
             "2.2.1": [
