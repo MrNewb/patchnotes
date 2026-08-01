@@ -95,6 +95,11 @@
                 "Rebase on the latest updates ive pushed to the org repo, added support for one_inventory",
                 "Misc other fixes.",
                 "Adjusted version numbers to make people stop opening tickets"
+            ],
+            "0.13.5": [
+                "Added missing command registration support for the Qbox framework module. Thanks @PeppeSess.",
+                "Added support for MSK Scripts (msk_core). Thanks @Musiker.",
+                "Improved SQL handler security against improper third-party usage and deprecated the SQL handler module."
             ]
         }
     },
