@@ -103,10 +103,10 @@
             ]
         }
     },
-    "TacoLink": {
+    "Newb_Bridge": {
         "versions": {
-            "0.0.2": [
-                "Prep for release."
+            "0.0.1": [
+                "Initial release."
             ]
         }
     },
