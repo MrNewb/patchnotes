@@ -2,9 +2,10 @@
     "MrNewbWeaponTints": {
         "repo": "MrNewb/MrNewbWeaponTints",
         "versions": {
-            "0.2.0": [
-                "Updated to new folder format, slight cleanup, compatibility with current bridge.",
-                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            "1.0.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "ox_inventory tint kits (1-7) plus a serial file that strips weapon serials. MK2 weapons remap tint ids when the item name contains MK2.",
+                "New item images, notifications through the bridge, and the usual folder cleanup."
             ]
         }
     },
@@ -12,8 +13,7 @@
         "versions": {
             "1.5.0": [
                 "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
-                "Opened up some code for all of you :) ",
-                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+                "Opened up some code for all of you :) "
             ]
         }
     },
@@ -23,15 +23,23 @@
             "0.0.2": [
                 "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
                 "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ],
+            "1.0.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "Fruit and vegetable picking from sphere zones or spawned props. One map blip per type (first location).",
+                "Farmers market vendors pay bank. Produce, prices, and spots live in configs/config.lua.",
+                "Shipped produce is apple, pineapple, and lettuce. New item images."
             ]
         }
     },
     "MrNewbPhoneTracker": {
         "repo": "MrNewb/MrNewbPhoneTracker",
         "versions": {
-            "2.1.0": [
-                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
-                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            "3.1.1": [
+                "This resource uses Newb_Bridge going forward.",
+                "Replaced the old input dialog with a handheld GPS NUI. Type a number, ping, and get a waypoint/blip if that player is online.",
+                "Job-gated item use, server-side ping cooldown, digits-only input, and an open phone lookup for gks, lb-phone, NPWD, okok, qs, qb-phone, roadphone, and yseries.",
+                "Failed pings stay on the device so you can try another number. Escape and the on-device close path both drop NUI focus."
             ]
         }
     },
@@ -41,24 +49,33 @@
             "0.1.3": [
                 "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
                 "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ],
+            "0.2.2": [
+                "This resource uses Newb_Bridge going forward.",
+                "Ghost hunts, pumpkin searches, grave digging, trick-or-treat, decorations, and an event-token shop.",
+                "Loot tables and scavenger locations stay in the server-only sv_config.",
+                "Optional Halloween weather around shops. Ghost hunts need pengu_digiscanner. New item images."
             ]
         }
     },
     "MrNewbPawn": {
         "repo": "MrNewb/MrNewbPawn",
         "versions": {
-            "1.4.0": [
-                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
-                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            "1.5.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "Pawn shops can sell, then optionally buy that stock back at a markup (PurchaseStock / PurchaseMarkup). Sold stock is in-memory until restart.",
+                "Optional store hours on the game clock, foundry/smelter zones with melt recipes, and fresh INSTALL item images."
             ]
         }
     },
     "MrNewbCustomPlates": {
         "repo": "MrNewb/MrNewbCustomPlates",
         "versions": {
-            "2.2.0": [
-                "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
-                "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            "3.0.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "New plate customizer NUI. Type the plate on the graphic, it is filtered, then applied to a nearby owned vehicle.",
+                "Server re-checks plate text, distance, ownership, and that the item is still in inventory before writing. Optional ox exclusive so the item cannot be given away.",
+                "Optional MrNewbVehicleKeys hook so key metadata follows the new plate. New item image."
             ]
         }
     },
@@ -68,6 +85,12 @@
             "2.3.1": [
                 "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
                 "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ],
+            "3.0.1": [
+                "This resource uses Newb_Bridge going forward.",
+                "Paper certificate NUI for vouchers and marriage certificates. Names update live, no relog.",
+                "Optional records clerk (off by default) with a per-character in-memory cooldown. Word filter still runs on length and blocked words.",
+                "ChangePlayerName export for other resources, plus MrNewbNameChanger:Server:NameChanged after a successful write. New item images."
             ]
         }
     },
@@ -77,6 +100,12 @@
             "0.2.2": [
                 "Updated to new folder format, added new images, slight cleanup, compatibility with current bridge.",
                 "Also you can save some $ on my paid scripts if you dont have them, use coupon code NEWCUSTOMER10 at https://mrnewbscripts.tebex.io/"
+            ],
+            "0.4.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "Weighted loot tables plus job payout tables. Config is server-only so weights and payout ranges never hit the client.",
+                "shared = true pulls that row out of the live table after it hits once (server-wide). GetLootRoll / GetJobPayout / RegisterLootTable exports for other resources.",
+                "Trimmed unused example tables. Chance is an ox_lib selector weight, not a percent."
             ]
         }
     },
@@ -85,6 +114,31 @@
         "versions": {
             "0.1.4": [
                 "Updated to new version checks."
+            ],
+            "1.0.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "Gift boxes with guaranteed items, one weighted extra via ox_lib selector, and optional cash/bank/money. Config is server-only.",
+                "Boxes register as usable items through the bridge. GiveGiftBox / GiveGiftBoxRewards exports so other resources can grant a box or just roll its rewards."
+            ]
+        }
+    },
+    "MrNewbCityHall": {
+        "repo": "MrNewb/MrNewbCityHall",
+        "versions": {
+            "1.0.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "City hall NPCs for ID replacements, walk-up jobs, and job applications with an application cooldown.",
+                "Discord webhooks stay server-only. Submits are rejected until a valid webhook URL is set for that job. Full locale pack."
+            ]
+        }
+    },
+    "MrNewbVehicleRentals": {
+        "repo": "MrNewb/MrNewbVehicleRentals",
+        "versions": {
+            "1.0.0": [
+                "This resource uses Newb_Bridge going forward.",
+                "Rental desks as peds or props, paperwork items, spawn slots, and nearby returns. Vehicle keys go through the bridge.",
+                "Returns check player/vehicle proximity and rental ownership before clearing the vehicle. Bulgarian locale added."
             ]
         }
     },
