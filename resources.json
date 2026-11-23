@@ -6,6 +6,9 @@
                 "This resource uses Newb_Bridge going forward.",
                 "ox_inventory tint kits (1-7) plus a serial file that strips weapon serials. MK2 weapons remap tint ids when the item name contains MK2.",
                 "New item images, notifications through the bridge, and the usual folder cleanup."
+            ],
+            "1.0.4": [
+                "No gameplay changes in this update."
             ]
         }
     },
@@ -13,6 +16,20 @@
         "versions": {
             "1.6.1": [
                 "Migration completed to Newb_Bridge and minor fixes/qol fixes."
+            ],
+            "1.7.2": [
+                "Each carrier now keeps its own condition, tier and serial number. Five carrier tiers are available.",
+                "A plate HUD in the bottom right shows the worn carrier and its plates. Players can toggle it, and it hides when the pause menu opens.",
+                "Players can manage worn and stored carriers from one menu. The menu explains why a carrier cannot be repaired.",
+                "Using a repair plate while wearing a carrier repairs it in place.",
+                "Police can check the serial numbers of carriers in a bag or worn by the nearest person.",
+                "A carrier worn when a player leaves is restored when they log back in.",
+                "Heavier carriers slow players slightly. You can turn this off.",
+                "The config has moved to resource/open/shared/config.lua."
+            ],
+            "1.7.3": [
+                "The code is reorganised into modules, and the open settings file moved to resource/open/shared/config.lua. Move any edits you made in the old configs/config.lua across.",
+                "The README now covers the five carrier tiers, the plate HUD, the management menu and the police serial check, with the keys for each. Text is translated into 29 languages."
             ]
         }
     },
@@ -28,6 +45,13 @@
                 "Fruit and vegetable picking from sphere zones or spawned props. One map blip per type (first location).",
                 "Farmers market vendors pay bank. Produce, prices, and spots live in configs/config.lua.",
                 "Shipped produce is apple, pineapple, and lettuce. New item images."
+            ],
+            "1.0.4": [
+                "Two players can no longer collect rewards from the same plant at the same time.",
+                "Picking and selling now have cooldowns and logging. The server checks that players are near the plant or vendor they are using.",
+                "The premade fields now have at most 5 positions per plant type. Add more in the config if you want them.",
+                "The config has moved to resource/open/shared/config.lua.",
+                "Custom integrations must update calls to the renamed MrNewbOrganics events."
             ]
         }
     },
@@ -39,6 +63,11 @@
                 "Replaced the old input dialog with a handheld GPS NUI. Type a number, ping, and get a waypoint/blip if that player is online.",
                 "Job-gated item use, server-side ping cooldown, digits-only input, and an open phone lookup for gks, lb-phone, NPWD, okok, qs, qb-phone, roadphone, and yseries.",
                 "Failed pings stay on the device so you can try another number. Escape and the on-device close path both drop NUI focus."
+            ],
+            "3.2.1": [
+                "New handheld GPS interface with a keypad and a status line.",
+                "Release downloads now include only the compiled UI.",
+                "The config has moved to resource/open/shared/config.lua."
             ]
         }
     },
@@ -51,6 +80,10 @@
             ],
             "1.0.0": [
                 "This resource uses Newb_Bridge going forward."
+            ],
+            "1.0.2": [
+                "The main config has moved to resource/open/shared/config.lua.",
+                "The server-only loot pools and scavenger locations have moved to resource/open/server/config.lua."
             ]
         }
     },
@@ -61,6 +94,12 @@
                 "This resource uses Newb_Bridge going forward.",
                 "Pawn shops can sell, then optionally buy that stock back at a markup (PurchaseStock / PurchaseMarkup). Sold stock is in-memory until restart.",
                 "Optional store hours on the game clock, foundry/smelter zones with melt recipes, and fresh INSTALL item images."
+            ],
+            "1.5.3": [
+                "Two players can no longer buy the same buy-back stock at once. Stock stays available if a purchase fails.",
+                "Selling, buying and smelting now have cooldowns and logging, and the server checks distance and amounts.",
+                "Locales now load through ox_lib.",
+                "Custom integrations must use the renamed stock callback, MrNewbPawn:server:requestedStock."
             ]
         }
     },
@@ -72,6 +111,11 @@
                 "New plate customizer NUI. Type the plate on the graphic, it is filtered, then applied to a nearby owned vehicle.",
                 "Server re-checks plate text, distance, ownership, and that the item is still in inventory before writing. Optional ox exclusive so the item cannot be given away.",
                 "Optional MrNewbVehicleKeys hook so key metadata follows the new plate. New item image."
+            ],
+            "3.1.1": [
+                "Updated the plate customizer's layout and font.",
+                "Release downloads now include the compiled UI without the web source files. Restart the resource after updating so players get the new UI.",
+                "The config has moved to resource/open/shared/config.lua."
             ]
         }
     },
@@ -87,6 +131,10 @@
                 "Paper certificate NUI for vouchers and marriage certificates. Names update live, no relog.",
                 "Optional records clerk (off by default) with a per-character in-memory cooldown. Word filter still runs on length and blocked words.",
                 "ChangePlayerName export for other resources, plus MrNewbNameChanger:Server:NameChanged after a successful write. New item images."
+            ],
+            "3.0.4": [
+                "Fixed records clerks failing to appear when a character loads. Clerks are removed when the character unloads.",
+                "Release downloads now include only the compiled UI."
             ]
         }
     },
@@ -102,6 +150,13 @@
                 "Weighted loot tables plus job payout tables. Config is server-only so weights and payout ranges never hit the client.",
                 "shared = true pulls that row out of the live table after it hits once (server-wide). GetLootRoll / GetJobPayout / RegisterLootTable exports for other resources.",
                 "Trimmed unused example tables. Chance is an ox_lib selector weight, not a percent."
+            ],
+            "0.7.0": [
+                "Admins can edit loot tables and job pay at /setuploottables. Saved changes apply immediately.",
+                "Settings are now stored in the database. The config file only fills it the first time, and oxmysql is now required.",
+                "Loot crates: an item that opens a loot table. Restart LootTables after adding a new crate item.",
+                "The panel now shows recent rolls. You can also log them through ox_lib or a Discord webhook.",
+                "Copy buttons provide the export call for each table and job."
             ]
         }
     },
@@ -115,6 +170,10 @@
                 "This resource uses Newb_Bridge going forward.",
                 "Gift boxes with guaranteed items, one weighted extra via ox_lib selector, and optional cash/bank/money. Config is server-only.",
                 "Boxes register as usable items through the bridge. GiveGiftBox / GiveGiftBoxRewards exports so other resources can grant a box or just roll its rewards."
+            ],
+            "1.1.2": [
+                "New opening animation: the player kneels, sets the present on the ground, and it bursts into confetti when it opens.",
+                "The server-only config has moved to resource/open/server/config.lua."
             ]
         }
     },
@@ -125,6 +184,14 @@
                 "This resource uses Newb_Bridge going forward.",
                 "City hall NPCs for ID replacements, walk-up jobs, and job applications with an application cooldown.",
                 "Discord webhooks stay server-only. Submits are rejected until a valid webhook URL is set for that job. Full locale pack."
+            ],
+            "1.0.4": [
+                "Discord application posts now show the job, the applicant and their answers in a card. Long answers are shortened to fit.",
+                "Job, ID card and application requests now have cooldowns and logging. The server checks desk distance, available jobs and prices.",
+                "Fixed the city hall ped spawning partly underground.",
+                "All Discord message text can now be translated through the locale file.",
+                "Locale files now load through ox_lib.",
+                "Update custom integrations to use the renamed MrNewbCityHall callbacks."
             ]
         }
     },
@@ -135,6 +202,11 @@
                 "This resource uses Newb_Bridge going forward.",
                 "Rental desks as peds or props, paperwork items, spawn slots, and nearby returns. Vehicle keys go through the bridge.",
                 "Returns check player/vehicle proximity and rental ownership before clearing the vehicle. Bulgarian locale added."
+            ],
+            "1.0.4": [
+                "When the resource stops, active rentals are refunded and their paperwork and keys are removed.",
+                "Custom integrations must update calls to the renamed MrNewbVehicleRentals events.",
+                "The config has moved to resource/open/shared/config.lua."
             ]
         }
     },
@@ -182,6 +254,12 @@
             ],
             "0.0.3": [
                 "Ui cleanup, version checker fix, further prep for paid assets migration."
+            ],
+            "0.0.4": [
+                "Native Kora Framework providers: kora_core, kora_inventory and kora_target call Kora's own exports, with grades converted so scripts keep using the same zero-based grades. Auto-detect lists them before qbx_core, ox_inventory and ox_target.",
+                "whip_core is added as a provider option for the framework, inventory, target, notification, input, text UI, progress bar, vehicle keys and fuel settings.",
+                "New Newb_Bridge:server:playerJobUpdated and Newb_Bridge:client:playerJobUpdated events. The old playerJobUpdate events still fire and are deprecated.",
+                "Modules and utilities moved under resource/, the dialogue and icon UI was reworked, and the README was rewritten."
             ]
         }
     },
@@ -189,6 +267,69 @@
         "versions": {
             "2.0.4": [
                 "Complete Re-Write, new admin panel, minigames, smoker, genetics and all the cool stuff. This also moves to Newb_Bridge."
+            ]
+        }
+    },
+    "MrNewb_DigitalPets": {
+        "versions": {
+            "1.0.0": [
+                "Initial release. Digital Pets is a handheld virtual pet toy: hatch an egg, care for the pet, level it up and play with it on the toy's tiny screen.",
+                "31 pixel pets and 10 mini-games (Cooking, Slingshot, Joyride, De-Escrow, Taco Pinball, Takosu Fight, Bee Care, Serpent, Block Stacker, Cheesy Go-Kart), plus a toy shop with passive bonuses, hats, shell skins, room scenes, fortune cookies, trophies and daily streaks.",
+                "Outings to Los Santos landmarks with a map marker and the toy prop to find, a pedometer that boosts walks, and favourite spots that make pets happy.",
+                "The pet lives in the inventory item, so trading or stashing the item moves the pet with it. Uses Newb_Bridge (QBCore, Qbox and ESX). Everything is set up in game with /setupdigitalpets."
+            ],
+            "1.0.2": [
+                "Pets can get sick. Four medicines are new: syrup and antibiotic cure a sick pet, vitamin and tonic are safe on a healthy one.",
+                "Digital Pets settings now live in the database and load to players when they spawn, so they can be changed in game with the setup panel and no resource restart.",
+                "The code is reorganised into modules. The setup panel and the toy screens are rebuilt, and Kora Framework is supported through Newb_Bridge."
+            ]
+        }
+    },
+    "MrNewb_Recycling": {
+        "versions": {
+            "1.0.2": [
+                "Scrap recyclers: players load items, run the machine and collect materials. Uses Newb_Bridge (QBCore, Qbox and ESX).",
+                "Staff place and configure recyclers in game with /setuprecycling: stations as a prop, ped or box zone, recycler types that set efficiency, recipes and colour, and a library of recycler models.",
+                "Default recipes use stock items (phone, radio and lockpick into plastic, metalscrap and copper). An optional murder mode, off by default, adds six body-part items."
+            ],
+            "1.0.4": [
+                "Murder mode has new settings in the setup panel: a chance for the victim to break free, a chance that dispatch is alerted, and an insert cooldown.",
+                "The setup command is /setuprecycling. Percent settings use sliders in the panel.",
+                "Debug logging prints plain one-line messages and can be switched on and off live from the setup panel. The recycler server code was rewritten and the rotor script was removed.",
+                "Kora Framework is supported through Newb_Bridge, with a Kora item list for the optional murder mode loot."
+            ]
+        }
+    },
+    "MrNewb_Garage": {
+        "versions": {
+            "1.0.0": [
+                "In-game garage creator with personal storage, private, job and gang fleets, keyholders, transfers and impound for QBCore, Qbox and ESX through Newb_Bridge.",
+                "Everything is set up in game with /setupgarage: a guided setup wizard plus a Manage tab to build, edit and delete garages, import and export garage packs, and look up or move owned vehicles. /privategarage gives private-garage creators their own cut-down panel.",
+                "Impound with reasons, holds, self-retrieve and a police release board, store repair fees, slot limits and prices, an early release surcharge, society fund payouts, a Discord event log, saved vehicle dents and vehicle pictures.",
+                "Spawns are validated by the server with duplicate-spawn protection, and impound claims, slot changes and ownership changes use conditional or transactional database writes."
+            ]
+        }
+    },
+    "MrNewbRadioIntrusion": {
+        "repo": "MrNewb/MrNewbRadioIntrusion",
+        "versions": {
+            "1.1.2": [
+                "RadioIntrusion now uses Newb_Bridge for its framework, inventory and dispatch support.",
+                "Players need a radio in their inventory to use the device.",
+                "A failed crack sends a dispatch alert to the jobs you set.",
+                "Radio channel joins are logged through ox_lib.",
+                "The config has moved to resource/open/shared/config.lua."
+            ]
+        }
+    },
+    "MrNewb_Yoga": {
+        "repo": "MrNewb/MrNewb_Yoga",
+        "versions": {
+            "0.0.4": [
+                "Players can now do yoga on mats. Completing the poses restores health and reduces stress by a random amount.",
+                "Use mats placed around the map, or mat items players put down themselves (up to three each). An optional ped sells the mats.",
+                "Sessions are checked on the server: players must be near an unused mat, and a cooldown limits repeat sessions.",
+                "Yoga now uses Newb_Bridge for framework and inventory support."
             ]
         }
     }
