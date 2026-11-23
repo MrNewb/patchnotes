@@ -8,7 +8,8 @@
                 "New item images, notifications through the bridge, and the usual folder cleanup."
             ],
             "1.0.4": [
-                "No gameplay changes in this update."
+                "No gameplay changes in this update.",
+                "Watch the short: https://www.youtube.com/shorts/5UcYzoiPqnA"
             ]
         }
     },
@@ -29,7 +30,8 @@
             ],
             "1.7.3": [
                 "The code is reorganised into modules, and the open settings file moved to resource/open/shared/config.lua. Move any edits you made in the old configs/config.lua across.",
-                "The README now covers the five carrier tiers, the plate HUD, the management menu and the police serial check, with the keys for each. Text is translated into 29 languages."
+                "The README now covers the five carrier tiers, the plate HUD, the management menu and the police serial check, with the keys for each. Text is translated into 29 languages.",
+                "Watch the short: https://www.youtube.com/shorts/YxOEYQ2I_Aw"
             ]
         }
     },
@@ -67,7 +69,8 @@
             "3.2.1": [
                 "New handheld GPS interface with a keypad and a status line.",
                 "Release downloads now include only the compiled UI.",
-                "The config has moved to resource/open/shared/config.lua."
+                "The config has moved to resource/open/shared/config.lua.",
+                "Watch the short: https://www.youtube.com/shorts/O6wx3aYk3AI"
             ]
         }
     },
@@ -83,7 +86,8 @@
             ],
             "1.0.2": [
                 "The main config has moved to resource/open/shared/config.lua.",
-                "The server-only loot pools and scavenger locations have moved to resource/open/server/config.lua."
+                "The server-only loot pools and scavenger locations have moved to resource/open/server/config.lua.",
+                "Watch the short: https://www.youtube.com/shorts/JIHkxeJOPLc"
             ]
         }
     },
@@ -99,7 +103,8 @@
                 "Two players can no longer buy the same buy-back stock at once. Stock stays available if a purchase fails.",
                 "Selling, buying and smelting now have cooldowns and logging, and the server checks distance and amounts.",
                 "Locales now load through ox_lib.",
-                "Custom integrations must use the renamed stock callback, MrNewbPawn:server:requestedStock."
+                "Custom integrations must use the renamed stock callback, MrNewbPawn:server:requestedStock.",
+                "Watch the short: https://www.youtube.com/shorts/f6ZolcLqgZ4"
             ]
         }
     },
@@ -115,7 +120,8 @@
             "3.1.1": [
                 "Updated the plate customizer's layout and font.",
                 "Release downloads now include the compiled UI without the web source files. Restart the resource after updating so players get the new UI.",
-                "The config has moved to resource/open/shared/config.lua."
+                "The config has moved to resource/open/shared/config.lua.",
+                "Watch the short: https://www.youtube.com/shorts/QMZAePOYOdo"
             ]
         }
     },
@@ -134,7 +140,8 @@
             ],
             "3.0.4": [
                 "Fixed records clerks failing to appear when a character loads. Clerks are removed when the character unloads.",
-                "Release downloads now include only the compiled UI."
+                "Release downloads now include only the compiled UI.",
+                "Watch the short: https://www.youtube.com/shorts/NyFLOw_8qTc"
             ]
         }
     },
@@ -173,7 +180,8 @@
             ],
             "1.1.2": [
                 "New opening animation: the player kneels, sets the present on the ground, and it bursts into confetti when it opens.",
-                "The server-only config has moved to resource/open/server/config.lua."
+                "The server-only config has moved to resource/open/server/config.lua.",
+                "Watch the short: https://www.youtube.com/shorts/vP-WgmYvv5Q"
             ]
         }
     },
@@ -191,7 +199,8 @@
                 "Fixed the city hall ped spawning partly underground.",
                 "All Discord message text can now be translated through the locale file.",
                 "Locale files now load through ox_lib.",
-                "Update custom integrations to use the renamed MrNewbCityHall callbacks."
+                "Update custom integrations to use the renamed MrNewbCityHall callbacks.",
+                "Watch the short: https://www.youtube.com/shorts/eTsTBtN1Oy8"
             ]
         }
     },
@@ -206,7 +215,8 @@
             "1.0.4": [
                 "When the resource stops, active rentals are refunded and their paperwork and keys are removed.",
                 "Custom integrations must update calls to the renamed MrNewbVehicleRentals events.",
-                "The config has moved to resource/open/shared/config.lua."
+                "The config has moved to resource/open/shared/config.lua.",
+                "Watch the short: https://www.youtube.com/shorts/xD9SaaADWsw"
             ]
         }
     },
@@ -281,7 +291,8 @@
             "1.0.2": [
                 "Pets can get sick. Four medicines are new: syrup and antibiotic cure a sick pet, vitamin and tonic are safe on a healthy one.",
                 "Digital Pets settings now live in the database and load to players when they spawn, so they can be changed in game with the setup panel and no resource restart.",
-                "The code is reorganised into modules. The setup panel and the toy screens are rebuilt, and Kora Framework is supported through Newb_Bridge."
+                "The code is reorganised into modules. The setup panel and the toy screens are rebuilt, and Kora Framework is supported through Newb_Bridge.",
+                "Watch the short: https://www.youtube.com/shorts/sST4A6xJHIE"
             ]
         }
     },
@@ -318,7 +329,8 @@
                 "Players need a radio in their inventory to use the device.",
                 "A failed crack sends a dispatch alert to the jobs you set.",
                 "Radio channel joins are logged through ox_lib.",
-                "The config has moved to resource/open/shared/config.lua."
+                "The config has moved to resource/open/shared/config.lua.",
+                "Watch the short: https://www.youtube.com/shorts/1eOhGaC54wc"
             ]
         }
     },
@@ -329,7 +341,8 @@
                 "Players can now do yoga on mats. Completing the poses restores health and reduces stress by a random amount.",
                 "Use mats placed around the map, or mat items players put down themselves (up to three each). An optional ped sells the mats.",
                 "Sessions are checked on the server: players must be near an unused mat, and a cooldown limits repeat sessions.",
-                "Yoga now uses Newb_Bridge for framework and inventory support."
+                "Yoga now uses Newb_Bridge for framework and inventory support.",
+                "Watch the short: https://www.youtube.com/shorts/9S7sS3tPDKU"
             ]
         }
     }
