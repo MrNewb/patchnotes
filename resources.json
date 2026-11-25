@@ -283,6 +283,9 @@
                 "Fallback names are now consistent: internal is the bridge's own built-in version (notifications, fuel, dispatch) and none means nothing was found so the module does nothing. You can pin none to switch a module off.",
                 "The old event names (such as Newb_Bridge:server:playerLoad) are removed after 2026-12-17. Move your listeners to the new names listed in the Events docs.",
                 "The INSTALL folder was removed from the resource. The install guide, configuration, supported resources and module docs are in the online docs."
+            ],
+            "0.1.1": [
+                "Interaction points no longer stop spawning when one of them errors. A single interaction that throws while spawning is logged and skipped, and an error in the point loop is logged instead of ending it, which used to leave every interaction unspawned until the resource restarted."
             ]
         }
     },
@@ -313,7 +316,7 @@
                 "Swimming outings: a waterproof pet asks to go for a swim. Follow the pin, get into the water and splash about for a few seconds to finish the outing.",
                 "Gifts: send pet coins or a toy to a friend standing nearby. There are cooldowns for the sender and the receiver, and the server can switch gifts off.",
                 "A Digital Pet shopkeeper you can talk to. Buy a Digital Pet egg (there is a limit on how many a player can carry), or ask them to check on a pet for a care grade from S to D, with praise and a tip for what it needs next.",
-                "Custom pets for advanced users. Drop a folder with your own sprite sheet into the custom folder and the pet joins the hatch list and works like a built-in one. A template pack and a checker come with the script.",
+                "Custom pets for advanced users. Drop a folder with your own sprite sheet into the custom folder and the pet joins the hatch list and works like a built-in one. A template pack comes with the script, and the server checks every custom pet when it starts.",
                 "A new About page in the care menu with the credits and the installed version. The toy shop is split into Toys, Hats, Shells and Rooms tabs, and there are now 36 trophies.",
                 "Every new feature has its own settings in the /setupdigitalpets panel, so you can tune or switch it off in game.",
                 "The one_inventory item list is now in the ox_inventory format. Import it with one_inventory's own item importer instead of registering it from a script."
