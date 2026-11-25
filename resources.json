@@ -268,67 +268,31 @@
     "Newb_Bridge": {
         "repo": "MrNewb/Newb_Bridge",
         "versions": {
-            "0.0.1": [
-                "Initial release."
-            ],
-            "0.0.3": [
-                "Ui cleanup, version checker fix, further prep for paid assets migration."
-            ],
-            "0.0.4": [
-                "Native Kora Framework providers: kora_core, kora_inventory and kora_target call Kora's own exports, with grades converted so scripts keep using the same zero-based grades. Auto-detect lists them before qbx_core, ox_inventory and ox_target.",
-                "whip_core is added as a provider option for the framework, inventory, target, notification, input, text UI, progress bar, vehicle keys and fuel settings.",
-                "New Newb_Bridge:server:playerJobUpdated and Newb_Bridge:client:playerJobUpdated events. The old playerJobUpdate events still fire and are deprecated.",
-                "Modules and utilities moved under resource/, the dialogue and icon UI was reworked, and the README was rewritten."
-            ],
-            "0.1.0": [
-                "New bridge.banking, bridge.doorlock, bridge.phone and bridge.weather modules. Banking and phone are server only and weather is client only. With no matching resource installed a module resolves to none and does nothing, and a stopped or failing resource can no longer throw an error into the script that called the bridge.",
-                "Banking: Renewed-Banking, qb-banking, okokBanking, fd_banking, kartik-banking, tgg-banking, tgiann-bank and wasabi_banking. Doorlock: ox_doorlock, qb-doorlock, rcore_doorlock and doors_creator. Weather: Renewed-Weathersync, qb-weathersync and cd_easytime. Doorlock uses lockDoor and unlockDoor, and weather uses enableSync and disableSync.",
-                "Phone: kora_phone, sd-phone, sky_phone, lb-phone, gksphone, okokPhone, qs-smartphone, yseries and qb-phone, with getPlayerPhone and sendEmail. Phones are server only so a player can never ask the bridge to send mail. sky_phone cannot send mail, so sendEmail returns false there.",
-                "New vehicle key providers: jg-vehiclekeys and kora_vehiclekeys. Both are detected before qbx_vehiclekeys and qb-vehiclekeys, which they provide. kora_vehiclekeys has no client exports, so grant keys from the server.",
-                "wasabi_mdt, wasabi_carlock and wasabi_inventory were brought up to date with Wasabi's current docs. Dispatch alerts send only the fields wasabi_mdt documents, server key grants pass the vehicle model, client key removal now works without a plate, and stashes open through OpenInventory.",
-                "ZSX UI V2 fixes: the resource must be named ZSX_UIV2, so pin it as ZSX_UIV2 if you set it by hand. Text UI no longer stacks entries when it is shown every tick, a single progress bar prop is no longer dropped, and progress bars can only be cancelled when canCancel is true, like ox_lib.",
-                "Config.Debug now prints one line per module with the provider it loaded, plus a warning when a provider has no code for a side. That warning is expected for client only and server only modules, so it no longer prints unless Debug is on.",
-                "Config.VersionCheck = false now turns off every version check, including the ones the other MrNewb scripts run through the bridge. Before, only the bridge's own check was silenced.",
-                "Fallback names are now consistent: internal is the bridge's own built-in version (notifications, fuel, dispatch) and none means nothing was found so the module does nothing. You can pin none to switch a module off.",
-                "The old event names (such as Newb_Bridge:server:playerLoad) are removed after 2026-12-17. Move your listeners to the new names listed in the Events docs.",
-                "The INSTALL folder was removed from the resource. The install guide, configuration, supported resources and module docs are in the online docs."
-            ],
-            "0.1.1": [
-                "Interaction points no longer stop spawning when one of them errors. A single interaction that throws while spawning is logged and skipped, and an error in the point loop is logged instead of ending it, which used to leave every interaction unspawned until the resource restarted."
+            "0.1.2": [
+                "Modules and utilities now live under resource/. The bridge loads each module's source once for the whole server and the heavy tools (prop placer, zone creator, DUI surface and dialogue) load the first time they are used, so startup is lighter.",
+                "The old require path utility/client/camera_ray.lua still works through a shim, and is deprecated after 2026-12-17.",
+                "oxmysql is now a dependency of the bridge.",
+                "Bulk interaction registration always releases its hold, even if a registration or progress callback throws partway through a batch. The error is logged and the batch stops cleanly.",
+                "Task groups: a player who switches character now leaves their old character's groups, and the group leader change menu refresh uses the right event arguments.",
+                "whip_core fuel: the server only accepts a fuel change from the player whose client owns the vehicle."
             ]
         }
     },
     "MrNewbBeeKeeping": {
         "versions": {
-            "2.0.4": [
-                "Complete Re-Write, new admin panel, minigames, smoker, genetics and all the cool stuff. This also moves to Newb_Bridge."
+            "2.5.0": [
+                "The script is reorganised into modules (core, hives, genetics, swarms, traps, suit, separator, shops and admin) with an explicit load order. Settings and defaults moved to resource/modules/core/shared.",
+                "The [INSTALL] folder is reorganised into README.txt, images/ and items/ (one item list per inventory)."
             ]
         }
     },
     "MrNewb_DigitalPets": {
         "versions": {
-            "1.0.0": [
-                "Initial release. Digital Pets is a handheld virtual pet toy: hatch an egg, care for the pet, level it up and play with it on the toy's tiny screen.",
-                "31 pixel pets and 10 mini-games (Cooking, Slingshot, Joyride, De-Escrow, Taco Pinball, Takosu Fight, Bee Care, Serpent, Block Stacker, Cheesy Go-Kart), plus a toy shop with passive bonuses, hats, shell skins, room scenes, fortune cookies, trophies and daily streaks.",
-                "Outings to Los Santos landmarks with a map marker and the toy prop to find, a pedometer that boosts walks, and favourite spots that make pets happy.",
-                "The pet lives in the inventory item, so trading or stashing the item moves the pet with it. Uses Newb_Bridge (QBCore, Qbox and ESX). Everything is set up in game with /setupdigitalpets."
-            ],
-            "1.0.2": [
-                "Pets can get sick. Four medicines are new: syrup and antibiotic cure a sick pet, vitamin and tonic are safe on a healthy one.",
-                "Digital Pets settings now live in the database and load to players when they spawn, so they can be changed in game with the setup panel and no resource restart.",
-                "The code is reorganised into modules. The setup panel and the toy screens are rebuilt, and Kora Framework is supported through Newb_Bridge.",
-                "Watch the short: https://www.youtube.com/shorts/sST4A6xJHIE"
-            ],
-            "1.0.3": [
-                "Family: a pet can hear a relative calling for help. A faint signal appears on the map, with up to three hints and an area name. Follow it to rescue the relative and add them to your pet's Family. The new Family screen shows who you have found and lets relatives visit.",
-                "Three new mini games: Taco Tumble, Taco Clicker and Taco Flap. There are now thirteen games on the Play menu.",
-                "Swimming outings: a waterproof pet asks to go for a swim. Follow the pin, get into the water and splash about for a few seconds to finish the outing.",
-                "Gifts: send pet coins or a toy to a friend standing nearby. There are cooldowns for the sender and the receiver, and the server can switch gifts off.",
-                "A Digital Pet shopkeeper you can talk to. Buy a Digital Pet egg (there is a limit on how many a player can carry), or ask them to check on a pet for a care grade from S to D, with praise and a tip for what it needs next.",
-                "Custom pets for advanced users. Drop a folder with your own sprite sheet into the custom folder and the pet joins the hatch list and works like a built-in one. A template pack comes with the script, and the server checks every custom pet when it starts.",
-                "A new About page in the care menu with the credits and the installed version. The toy shop is split into Toys, Hats, Shells and Rooms tabs, and there are now 36 trophies.",
-                "Every new feature has its own settings in the /setupdigitalpets panel, so you can tune or switch it off in game.",
-                "The one_inventory item list is now in the ox_inventory format. Import it with one_inventory's own item importer instead of registering it from a script."
+            "1.1.1": [
+                "The script is reorganised into modules (pets, shop, fortunes and core). The config seed now lives in resource/open/seed/config.lua and stays editable.",
+                "The shop gets its own medicines, cosmetics and care report data, and pet progress and state moved into their own shared files.",
+                "Pets have a DUI display mode, and custom pets are loaded from the custom/pets folder.",
+                "The [INSTALL] folder is reorganised into README.txt, images/, items/ (one item list per inventory) and custom_pet_template/."
             ]
         }
     },
