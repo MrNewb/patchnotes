@@ -151,6 +151,10 @@
                 "Fixed records clerks failing to appear when a character loads. Clerks are removed when the character unloads.",
                 "Release downloads now include only the compiled UI.",
                 "Watch the short: https://www.youtube.com/shorts/NyFLOw_8qTc"
+            ],
+            "3.0.5": [
+                "The date on the certificate and the cooldown messages now read their month names and time units from the locale files.",
+                "Locale files are included for every language Newb_Bridge supports."
             ]
         }
     },
@@ -293,6 +297,10 @@
                 "The shop gets its own medicines, cosmetics and care report data, and pet progress and state moved into their own shared files.",
                 "Pets have a DUI display mode, and custom pets are loaded from the custom/pets folder.",
                 "The [INSTALL] folder is reorganised into README.txt, images/, items/ (one item list per inventory) and custom_pet_template/."
+            ],
+            "1.1.2": [
+                "The admin setup panel and the pet screens now read all of their text from the locale files, including the trophy names and descriptions.",
+                "Locale files are included for every language Newb_Bridge supports."
             ]
         }
     },
