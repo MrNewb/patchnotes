@@ -187,6 +187,11 @@
                 "Locales: any text missing from the language you run now falls back to English instead of showing an empty or raw key.",
                 "The French locale gained the new zone creator labels (place the zone, finish, undo the last zone).",
                 "Inventory: asking for an item that does not exist in an inventory's item list now correctly reports it as missing instead of treating the whole list as one item."
+            ],
+            "0.1.4": [
+                "Boss menu: added support for lation_jobs and ShitDevScripts-Bossmenu. They are detected automatically, or set Config.BossMenu to the resource name.",
+                "Banking: added support for ShitDevScripts-Banking. It is detected automatically, or set Config.Banking to ShitDevScripts-Banking.",
+                "Thanks to Rastalum and GR-Scripts for the contributions."
             ]
         }
     },
