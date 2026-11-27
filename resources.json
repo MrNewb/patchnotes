@@ -189,7 +189,7 @@
                 "Inventory: asking for an item that does not exist in an inventory's item list now correctly reports it as missing instead of treating the whole list as one item."
             ],
             "0.1.4": [
-                "Boss menu: added support for lation_jobs and ShitDevScripts-Bossmenu. They are detected automatically, or set Config.BossMenu to the resource name.",
+                "Boss menu: added support for lation_jobs, ShitDevScripts-Bossmenu and apex_bossmenu. They are detected automatically, or set Config.BossMenu to the resource name.",
                 "Banking: added support for ShitDevScripts-Banking. It is detected automatically, or set Config.Banking to ShitDevScripts-Banking.",
                 "Thanks to Rastalum and GR-Scripts for the contributions."
             ]
